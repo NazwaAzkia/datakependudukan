@@ -76,7 +76,7 @@ public class surat {
     }
        
         
-    public void hapussurat (String id_surat, String jenis_surat, String no_surat, String nama_surat, Date tanggal, String isi_surat, String tanda_surat, String no_ktp, String nama_warga) {
+    public void hapussurat (String id_surat) {
         try {
             String sql = "delete from surat where id_surat = ?";
             PreparedStatement perintah = connectiondb.prepareStatement(sql);

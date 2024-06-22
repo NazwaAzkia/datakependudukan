@@ -70,7 +70,7 @@ public class mutasi_warga {
     }
        
         
-    public void hapusmutasiwarga (String id_mutasi, String no_ktp, Date tgl_warga, String jenis_mutasi, Date tanggal, String keterangan) {
+    public void hapusmutasiwarga (String id_mutasi) {
         try {
             String sql = "delete from mutasi_warga where id_mutasi = ?";
             PreparedStatement perintah = connectiondb.prepareStatement(sql);

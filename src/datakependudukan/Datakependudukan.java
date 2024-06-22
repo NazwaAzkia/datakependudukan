@@ -7,7 +7,7 @@ import mutasi.MutasiWarga;
 import java.util.Scanner;
 import java.sql.Date;
 import CRUD.*;
-
+import gui.FrameUtama;
 /**
  *
  * @author ASUS
@@ -18,6 +18,10 @@ public class Datakependudukan {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        new FrameUtama().setVisible(true);
+        
+        
+        
             //database dbConnect = new database();
             //dbConnect.cariuji("2210010396");
         
@@ -53,7 +57,7 @@ public class Datakependudukan {
 //         dbConnect.datawarga();
            
 //         keluarga dbConnect = new keluarga();
-//         dbConnect.simpankeluarga("002", "alex", "sungai bilu", "keramat", "03", "01", "menengah ke bawah");
+//         dbConnect.simpankeluarga("004", "gomgom", "semarang", "rang", "01", "03", "atas");
 //         dbConnect.ubahkeluarga("002", "mahdi", "sungai bilu", "keramat", "03", "01", "menengah ke bawah");
 //         dbConnect.hapuskeluarga ("001", "", "", "", "", "", "");
 //         dbConnect.datakeluarga();
@@ -67,7 +71,7 @@ public class Datakependudukan {
 
 //        database dbConnect = new database();
 //        dbConnect.simpanuji("2210010396", "nazwakia", "081234857987", "sungaiandai");
-//        dbConnect.ubahuji("2210010396", "nazwa", "081234857987", "sungaiandai");
+//        dbConnect.ubahuji("2210010396", "wawa", "081234857987", "sungaiandai");
 //        dbConnect.hapusuji ("2210010396", "", "", "");
 //        dbConnect.datauji();
         // TODO code application logic here

@@ -84,7 +84,7 @@ public class warga {
     }
        
         
-    public void hapuswarga (String no_ktp, String id_keluarga, String nama, String agama, String t_lahir,Date tgl_lahir, String j_kel, String go_darah, String w_negara, String pendidikan, String pekerjaan, String s_nikah, String status) {
+    public void hapuswarga (String no_ktp) {
         try {
             String sql = "delete from warga where no_ktp = ?";
             PreparedStatement perintah = connectiondb.prepareStatement(sql);
